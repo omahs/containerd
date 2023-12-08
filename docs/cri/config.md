@@ -498,7 +498,7 @@ server = "https://192.168.12.34:5000"
   ca = "/path/to/ca.crt"
 ```
 
-See [`docs/hosts.md`](https://github.com/containerd/containerd/blob/main/docs/hosts.md) for the further information.
+See [`docs/hosts.md`](https://github.com/containerd/containerd/blob/main/docs/hosts.md) for further information.
 
 ## Untrusted Workload
 
