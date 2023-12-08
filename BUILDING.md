@@ -1,6 +1,6 @@
 # Build containerd from source
 
-This guide is useful if you intend to contribute on containerd. Thanks for your
+This guide is useful if you intend to contribute to containerd. Thanks for your
 effort. Every contribution is very appreciated.
 
 This doc includes:
@@ -127,7 +127,7 @@ make generate
 > Makefile target will disable the btrfs driver within the containerd Go build.
 
 Vendoring of external imports uses the [Go Modules](https://golang.org/ref/mod#vendoring). You need
-to use `go mod` command to modify the dependencies. After modifition, you should run `go mod tidy`
+to use `go mod` command to modify the dependencies. After modification, you should run `go mod tidy`
 and `go mod vendor` to ensure the `go.mod`, `go.sum` files and `vendor` directory are up to date.
 Changes to these files should become a single commit for a PR which relies on vendored updates.
 
@@ -203,7 +203,7 @@ In our Docker container we will build `runc` build, which includes
 and [AppArmor](https://en.wikipedia.org/wiki/AppArmor) support. Seccomp support
 in runc requires `libseccomp-dev` as a dependency (AppArmor and SELinux support
 do not require external libraries at build time). Refer to [RUNC.md](docs/RUNC.md)
-in the docs directory to for details about building runc, and to learn about
+in the docs directory for details about building runc, and to learn about
 supported versions of `runc` as used by containerd.
 
 Let's suppose you build an image called `containerd/build` from the above Dockerfile. You can run the following command:
